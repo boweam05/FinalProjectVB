@@ -1,0 +1,12 @@
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\FirstForm.vb.exe.config
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\FirstForm.vb.exe
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\FirstForm.vb.pdb
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\FirstForm.vb.xml
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.vbprojResolveAssemblyReference.cache
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.CustomerInformation.resources
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.Resources.resources
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.vbproj.GenerateResource.Cache
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.vbproj.CoreCompileInputs.cache
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.exe
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.xml
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.pdb
