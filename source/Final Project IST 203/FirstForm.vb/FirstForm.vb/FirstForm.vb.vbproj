@@ -72,11 +72,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomerInformation.vb">
+    <Compile Include="BuyingForm.Designer.vb">
+      <DependentUpon>BuyingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuyingForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomerInformation.Designer.vb">
-      <DependentUpon>CustomerInformation.vb</DependentUpon>
+    <Compile Include="BuyingTotalCostInfo.Designer.vb">
+      <DependentUpon>BuyingTotalCostInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuyingTotalCostInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecificationsForm.Designer.vb">
+      <DependentUpon>SpecificationsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SpecificationsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartupForm.Designer.vb">
+      <DependentUpon>StartupForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -100,10 +118,25 @@
     <Compile Include="RepairForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="RepairTotalCostInfo.Designer.vb">
+      <DependentUpon>RepairTotalCostInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepairTotalCostInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CustomerInformation.resx">
-      <DependentUpon>CustomerInformation.vb</DependentUpon>
+    <EmbeddedResource Include="BuyingForm.resx">
+      <DependentUpon>BuyingForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuyingTotalCostInfo.resx">
+      <DependentUpon>BuyingTotalCostInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecificationsForm.resx">
+      <DependentUpon>SpecificationsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartupForm.resx">
+      <DependentUpon>StartupForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -113,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RepairForm.resx">
       <DependentUpon>RepairForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepairTotalCostInfo.resx">
+      <DependentUpon>RepairTotalCostInfo.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
