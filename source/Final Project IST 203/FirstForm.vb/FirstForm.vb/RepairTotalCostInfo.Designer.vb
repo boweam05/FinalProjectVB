@@ -30,10 +30,11 @@ Partial Class RepairTotalCostInfo
         Me.btnSlow = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.txtCustomerName = New System.Windows.Forms.TextBox()
+        Me.txtCustomerPhone = New System.Windows.Forms.TextBox()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
+        Me.lstRepairTypes = New System.Windows.Forms.ListBox()
+        Me.lblTotalCost = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -108,44 +109,54 @@ Partial Class RepairTotalCostInfo
         Me.Label6.TabIndex = 7
         Me.Label6.Text = "Repair Type:"
         '
-        'TextBox1
+        'txtCustomerName
         '
-        Me.TextBox1.Location = New System.Drawing.Point(103, 20)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 8
+        Me.txtCustomerName.Location = New System.Drawing.Point(103, 20)
+        Me.txtCustomerName.Name = "txtCustomerName"
+        Me.txtCustomerName.Size = New System.Drawing.Size(159, 20)
+        Me.txtCustomerName.TabIndex = 8
         '
-        'TextBox2
+        'txtCustomerPhone
         '
-        Me.TextBox2.Location = New System.Drawing.Point(103, 48)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 9
+        Me.txtCustomerPhone.Location = New System.Drawing.Point(103, 48)
+        Me.txtCustomerPhone.Name = "txtCustomerPhone"
+        Me.txtCustomerPhone.Size = New System.Drawing.Size(159, 20)
+        Me.txtCustomerPhone.TabIndex = 9
         '
-        'TextBox3
+        'txtEmail
         '
-        Me.TextBox3.Location = New System.Drawing.Point(103, 80)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 10
+        Me.txtEmail.Location = New System.Drawing.Point(103, 80)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(159, 20)
+        Me.txtEmail.TabIndex = 10
         '
-        'ListBox1
+        'lstRepairTypes
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(23, 155)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(239, 95)
-        Me.ListBox1.TabIndex = 11
+        Me.lstRepairTypes.FormattingEnabled = True
+        Me.lstRepairTypes.Location = New System.Drawing.Point(23, 155)
+        Me.lstRepairTypes.Name = "lstRepairTypes"
+        Me.lstRepairTypes.Size = New System.Drawing.Size(239, 95)
+        Me.lstRepairTypes.TabIndex = 11
+        '
+        'lblTotalCost
+        '
+        Me.lblTotalCost.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblTotalCost.Location = New System.Drawing.Point(82, 391)
+        Me.lblTotalCost.Name = "lblTotalCost"
+        Me.lblTotalCost.Size = New System.Drawing.Size(121, 24)
+        Me.lblTotalCost.TabIndex = 12
+        Me.lblTotalCost.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'RepairTotalCostInfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(297, 440)
-        Me.Controls.Add(Me.ListBox1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.lblTotalCost)
+        Me.Controls.Add(Me.lstRepairTypes)
+        Me.Controls.Add(Me.txtEmail)
+        Me.Controls.Add(Me.txtCustomerPhone)
+        Me.Controls.Add(Me.txtCustomerName)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.btnSlow)
@@ -154,6 +165,9 @@ Partial Class RepairTotalCostInfo
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "RepairTotalCostInfo"
         Me.Text = "Repair Customer Information"
         Me.ResumeLayout(False)
@@ -169,8 +183,9 @@ Partial Class RepairTotalCostInfo
     Friend WithEvents btnSlow As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents txtCustomerName As TextBox
+    Friend WithEvents txtCustomerPhone As TextBox
+    Friend WithEvents txtEmail As TextBox
+    Friend WithEvents lstRepairTypes As ListBox
+    Friend WithEvents lblTotalCost As Label
 End Class

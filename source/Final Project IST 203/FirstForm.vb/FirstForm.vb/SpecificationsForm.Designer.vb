@@ -183,6 +183,9 @@ Partial Class SpecificationsForm
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "SpecificationsForm"
         Me.Text = "Specifications Form"
         Me.ResumeLayout(False)

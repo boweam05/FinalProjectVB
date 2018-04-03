@@ -120,6 +120,9 @@ Partial Class BuyingTotalCostInfo
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "BuyingTotalCostInfo"
         Me.Text = "Buying Total Cost Information"
         Me.ResumeLayout(False)

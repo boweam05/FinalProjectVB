@@ -64,21 +64,21 @@ Partial Class StartupForm
         '
         Me.txtName.Location = New System.Drawing.Point(53, 24)
         Me.txtName.Name = "txtName"
-        Me.txtName.Size = New System.Drawing.Size(100, 20)
+        Me.txtName.Size = New System.Drawing.Size(150, 20)
         Me.txtName.TabIndex = 3
         '
         'txtPhone
         '
         Me.txtPhone.Location = New System.Drawing.Point(53, 67)
         Me.txtPhone.Name = "txtPhone"
-        Me.txtPhone.Size = New System.Drawing.Size(100, 20)
+        Me.txtPhone.Size = New System.Drawing.Size(150, 20)
         Me.txtPhone.TabIndex = 4
         '
         'txtEmail
         '
         Me.txtEmail.Location = New System.Drawing.Point(53, 113)
         Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(100, 20)
+        Me.txtEmail.Size = New System.Drawing.Size(150, 20)
         Me.txtEmail.TabIndex = 5
         '
         'Label4
@@ -112,7 +112,7 @@ Partial Class StartupForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(292, 242)
+        Me.ClientSize = New System.Drawing.Size(225, 242)
         Me.Controls.Add(Me.btnBuy)
         Me.Controls.Add(Me.btnRepair)
         Me.Controls.Add(Me.Label4)
@@ -122,6 +122,9 @@ Partial Class StartupForm
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "StartupForm"
         Me.Text = "Customer Information"
         Me.ResumeLayout(False)

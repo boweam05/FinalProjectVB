@@ -62,6 +62,9 @@ Partial Class BuyingForm
         Me.Controls.Add(Me.btnSpecsSheet)
         Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.DataGridView1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "BuyingForm"
         Me.Text = "Buying Form"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
