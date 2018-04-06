@@ -25,9 +25,6 @@ Partial Class RepairTotalCostInfo
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.btnFast = New System.Windows.Forms.Button()
-        Me.btnSlow = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtCustomerName = New System.Windows.Forms.TextBox()
@@ -40,7 +37,7 @@ Partial Class RepairTotalCostInfo
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 23)
+        Me.Label1.Location = New System.Drawing.Point(12, 31)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(85, 13)
         Me.Label1.TabIndex = 0
@@ -49,7 +46,7 @@ Partial Class RepairTotalCostInfo
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(53, 55)
+        Me.Label2.Location = New System.Drawing.Point(53, 63)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(44, 13)
         Me.Label2.TabIndex = 1
@@ -58,43 +55,16 @@ Partial Class RepairTotalCostInfo
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(53, 87)
+        Me.Label3.Location = New System.Drawing.Point(53, 95)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(35, 13)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Email:"
         '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(26, 277)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(227, 13)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Would You Like a Fast Repair or Slow Repair?"
-        '
-        'btnFast
-        '
-        Me.btnFast.Location = New System.Drawing.Point(29, 317)
-        Me.btnFast.Name = "btnFast"
-        Me.btnFast.Size = New System.Drawing.Size(94, 51)
-        Me.btnFast.TabIndex = 4
-        Me.btnFast.Text = "Fast = ($7.00) (1-2 Business Days)"
-        Me.btnFast.UseVisualStyleBackColor = True
-        '
-        'btnSlow
-        '
-        Me.btnSlow.Location = New System.Drawing.Point(159, 317)
-        Me.btnSlow.Name = "btnSlow"
-        Me.btnSlow.Size = New System.Drawing.Size(94, 51)
-        Me.btnSlow.TabIndex = 5
-        Me.btnSlow.Text = "Slow = (FREE) (2-5 Business Days)"
-        Me.btnSlow.UseVisualStyleBackColor = True
-        '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(23, 396)
+        Me.Label5.Location = New System.Drawing.Point(44, 277)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(61, 13)
         Me.Label5.TabIndex = 6
@@ -103,7 +73,7 @@ Partial Class RepairTotalCostInfo
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(100, 132)
+        Me.Label6.Location = New System.Drawing.Point(100, 136)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(68, 13)
         Me.Label6.TabIndex = 7
@@ -111,27 +81,35 @@ Partial Class RepairTotalCostInfo
         '
         'txtCustomerName
         '
-        Me.txtCustomerName.Location = New System.Drawing.Point(103, 20)
+        Me.txtCustomerName.BackColor = System.Drawing.SystemColors.Control
+        Me.txtCustomerName.Enabled = False
+        Me.txtCustomerName.Location = New System.Drawing.Point(103, 28)
         Me.txtCustomerName.Name = "txtCustomerName"
         Me.txtCustomerName.Size = New System.Drawing.Size(159, 20)
         Me.txtCustomerName.TabIndex = 8
         '
         'txtCustomerPhone
         '
-        Me.txtCustomerPhone.Location = New System.Drawing.Point(103, 48)
+        Me.txtCustomerPhone.BackColor = System.Drawing.SystemColors.Control
+        Me.txtCustomerPhone.Enabled = False
+        Me.txtCustomerPhone.Location = New System.Drawing.Point(103, 56)
         Me.txtCustomerPhone.Name = "txtCustomerPhone"
         Me.txtCustomerPhone.Size = New System.Drawing.Size(159, 20)
         Me.txtCustomerPhone.TabIndex = 9
         '
         'txtEmail
         '
-        Me.txtEmail.Location = New System.Drawing.Point(103, 80)
+        Me.txtEmail.BackColor = System.Drawing.SystemColors.Control
+        Me.txtEmail.Enabled = False
+        Me.txtEmail.Location = New System.Drawing.Point(103, 88)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(159, 20)
         Me.txtEmail.TabIndex = 10
         '
         'lstRepairTypes
         '
+        Me.lstRepairTypes.BackColor = System.Drawing.SystemColors.Control
+        Me.lstRepairTypes.Enabled = False
         Me.lstRepairTypes.FormattingEnabled = True
         Me.lstRepairTypes.Location = New System.Drawing.Point(23, 155)
         Me.lstRepairTypes.Name = "lstRepairTypes"
@@ -141,7 +119,7 @@ Partial Class RepairTotalCostInfo
         'lblTotalCost
         '
         Me.lblTotalCost.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblTotalCost.Location = New System.Drawing.Point(82, 391)
+        Me.lblTotalCost.Location = New System.Drawing.Point(103, 272)
         Me.lblTotalCost.Name = "lblTotalCost"
         Me.lblTotalCost.Size = New System.Drawing.Size(121, 24)
         Me.lblTotalCost.TabIndex = 12
@@ -151,7 +129,7 @@ Partial Class RepairTotalCostInfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(297, 440)
+        Me.ClientSize = New System.Drawing.Size(297, 327)
         Me.Controls.Add(Me.lblTotalCost)
         Me.Controls.Add(Me.lstRepairTypes)
         Me.Controls.Add(Me.txtEmail)
@@ -159,9 +137,6 @@ Partial Class RepairTotalCostInfo
         Me.Controls.Add(Me.txtCustomerName)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.btnSlow)
-        Me.Controls.Add(Me.btnFast)
-        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -178,9 +153,6 @@ Partial Class RepairTotalCostInfo
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents btnFast As Button
-    Friend WithEvents btnSlow As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents txtCustomerName As TextBox

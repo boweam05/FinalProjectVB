@@ -22,6 +22,7 @@ Partial Class RepairForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.chkScreenRepair = New System.Windows.Forms.CheckBox()
         Me.chkBatteryReplacment = New System.Windows.Forms.CheckBox()
@@ -36,13 +37,22 @@ Partial Class RepairForm
         Me.radNO = New System.Windows.Forms.RadioButton()
         Me.radYES = New System.Windows.Forms.RadioButton()
         Me.grpRepairs = New System.Windows.Forms.GroupBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.radFastRepair = New System.Windows.Forms.RadioButton()
+        Me.radSlowRepair = New System.Windows.Forms.RadioButton()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.errProvider = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.grpRepairs.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        CType(Me.errProvider, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(80, 40)
+        Me.Label1.Location = New System.Drawing.Point(68, 40)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(165, 13)
         Me.Label1.TabIndex = 0
@@ -130,7 +140,7 @@ Partial Class RepairForm
         '
         'btnNext
         '
-        Me.btnNext.Location = New System.Drawing.Point(224, 426)
+        Me.btnNext.Location = New System.Drawing.Point(224, 544)
         Me.btnNext.Name = "btnNext"
         Me.btnNext.Size = New System.Drawing.Size(75, 23)
         Me.btnNext.TabIndex = 9
@@ -140,7 +150,7 @@ Partial Class RepairForm
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(31, 378)
+        Me.Label2.Location = New System.Drawing.Point(57, 383)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(183, 13)
         Me.Label2.TabIndex = 10
@@ -149,7 +159,7 @@ Partial Class RepairForm
         'radNO
         '
         Me.radNO.AutoSize = True
-        Me.radNO.Location = New System.Drawing.Point(140, 400)
+        Me.radNO.Location = New System.Drawing.Point(87, 19)
         Me.radNO.Name = "radNO"
         Me.radNO.Size = New System.Drawing.Size(41, 17)
         Me.radNO.TabIndex = 11
@@ -160,7 +170,7 @@ Partial Class RepairForm
         'radYES
         '
         Me.radYES.AutoSize = True
-        Me.radYES.Location = New System.Drawing.Point(70, 400)
+        Me.radYES.Location = New System.Drawing.Point(17, 19)
         Me.radYES.Name = "radYES"
         Me.radYES.Size = New System.Drawing.Size(46, 17)
         Me.radYES.TabIndex = 12
@@ -178,20 +188,77 @@ Partial Class RepairForm
         Me.grpRepairs.Controls.Add(Me.chkVirusRemoval)
         Me.grpRepairs.Controls.Add(Me.chkOutterShellReplace)
         Me.grpRepairs.Controls.Add(Me.chkPasswordRemoval)
-        Me.grpRepairs.Location = New System.Drawing.Point(12, 67)
+        Me.grpRepairs.Location = New System.Drawing.Point(12, 71)
         Me.grpRepairs.Name = "grpRepairs"
-        Me.grpRepairs.Size = New System.Drawing.Size(303, 299)
+        Me.grpRepairs.Size = New System.Drawing.Size(287, 299)
         Me.grpRepairs.TabIndex = 13
         Me.grpRepairs.TabStop = False
+        Me.grpRepairs.Text = "Please Select Atleast One Repair"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(68, 461)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(153, 13)
+        Me.Label3.TabIndex = 14
+        Me.Label3.Text = "Please Select A Repair Speed."
+        '
+        'radFastRepair
+        '
+        Me.radFastRepair.AutoSize = True
+        Me.radFastRepair.Location = New System.Drawing.Point(13, 25)
+        Me.radFastRepair.Name = "radFastRepair"
+        Me.radFastRepair.Size = New System.Drawing.Size(118, 17)
+        Me.radFastRepair.TabIndex = 15
+        Me.radFastRepair.TabStop = True
+        Me.radFastRepair.Text = "Fast Repair = $7.00"
+        Me.radFastRepair.UseVisualStyleBackColor = True
+        '
+        'radSlowRepair
+        '
+        Me.radSlowRepair.AutoSize = True
+        Me.radSlowRepair.Location = New System.Drawing.Point(13, 48)
+        Me.radSlowRepair.Name = "radSlowRepair"
+        Me.radSlowRepair.Size = New System.Drawing.Size(122, 17)
+        Me.radSlowRepair.TabIndex = 16
+        Me.radSlowRepair.TabStop = True
+        Me.radSlowRepair.Text = "Slow Repair = FREE"
+        Me.radSlowRepair.UseVisualStyleBackColor = True
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.radYES)
+        Me.GroupBox1.Controls.Add(Me.radNO)
+        Me.GroupBox1.Location = New System.Drawing.Point(71, 396)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(142, 55)
+        Me.GroupBox1.TabIndex = 17
+        Me.GroupBox1.TabStop = False
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.radFastRepair)
+        Me.GroupBox2.Controls.Add(Me.radSlowRepair)
+        Me.GroupBox2.Location = New System.Drawing.Point(71, 477)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(143, 87)
+        Me.GroupBox2.TabIndex = 18
+        Me.GroupBox2.TabStop = False
+        '
+        'errProvider
+        '
+        Me.errProvider.ContainerControl = Me
         '
         'RepairForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(352, 464)
+        Me.ClientSize = New System.Drawing.Size(311, 579)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.grpRepairs)
-        Me.Controls.Add(Me.radYES)
-        Me.Controls.Add(Me.radNO)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.Label1)
@@ -202,6 +269,11 @@ Partial Class RepairForm
         Me.Text = "Repair Form"
         Me.grpRepairs.ResumeLayout(False)
         Me.grpRepairs.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        CType(Me.errProvider, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -221,4 +293,10 @@ Partial Class RepairForm
     Friend WithEvents radNO As RadioButton
     Friend WithEvents radYES As RadioButton
     Friend WithEvents grpRepairs As GroupBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents radFastRepair As RadioButton
+    Friend WithEvents radSlowRepair As RadioButton
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents errProvider As ErrorProvider
 End Class

@@ -45,4 +45,5 @@
         'update total cost label 
         lblTotalCost.Text = CType(RepairForm.calcTotalRepair, String)
     End Sub
+
 End Class

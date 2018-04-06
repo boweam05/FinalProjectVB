@@ -22,6 +22,7 @@ Partial Class StartupForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -31,6 +32,8 @@ Partial Class StartupForm
         Me.Label4 = New System.Windows.Forms.Label()
         Me.btnRepair = New System.Windows.Forms.Button()
         Me.btnBuy = New System.Windows.Forms.Button()
+        Me.errProvider = New System.Windows.Forms.ErrorProvider(Me.components)
+        CType(Me.errProvider, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -108,6 +111,10 @@ Partial Class StartupForm
         Me.btnBuy.Text = "Buy"
         Me.btnBuy.UseVisualStyleBackColor = True
         '
+        'errProvider
+        '
+        Me.errProvider.ContainerControl = Me
+        '
         'StartupForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -127,6 +134,7 @@ Partial Class StartupForm
         Me.MinimizeBox = False
         Me.Name = "StartupForm"
         Me.Text = "Customer Information"
+        CType(Me.errProvider, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -141,4 +149,5 @@ Partial Class StartupForm
     Friend WithEvents Label4 As Label
     Friend WithEvents btnRepair As Button
     Friend WithEvents btnBuy As Button
+    Friend WithEvents errProvider As ErrorProvider
 End Class

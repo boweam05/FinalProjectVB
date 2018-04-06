@@ -1,7 +1,11 @@
 ﻿Public Class RepairForm
 
     Dim FinalCost As Integer
+    Const FastRepair As Integer = 7
+    Const SlowRepair As Integer = 0
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
+        'clears errprovider 
+        errProvider.Clear()
         Hide()
         RepairTotalCostInfo.Show()
         'repair costs 
@@ -32,8 +36,24 @@
             TotalRepairs += 25
         End If
 
+        'when the user hits the yes or no buttton on whether they have been to my store before. 
+        Const YESCost As Integer = 2
+        Dim FirstDiscount As Integer
+        If radYES.Checked Then
+            FirstDiscount = YESCost
+        End If
+
         'calculate total repair cost 
-        FinalCost = TotalRepairs
+        Const FastRepair As Integer = 7
+        If radFastRepair.Checked Then
+            FinalCost = TotalRepairs - FirstDiscount + FastRepair
+        End If
+        If radSlowRepair.Checked Then
+            FinalCost = TotalRepairs - FirstDiscount + SlowRepair
+        End If
+
+
+
         RepairTotalCostInfo.lblTotalCost.Text = calcTotalRepair.ToString("C")
     End Sub
     'return total cost 
@@ -45,5 +65,24 @@
         Return cost
     End Function
 
+    Private Sub radYES_CheckedChanged(sender As Object, e As EventArgs) Handles radYES.CheckedChanged
+
+        If radYES.Checked Then
+            MessageBox.Show("Since you have visited the store in the past, you will be rewarded with a $2.00 discount.
+
+                                     Thank you for coming again!")
+        End If
+
+    End Sub
+
+    Private Sub radNO_CheckedChanged(sender As Object, e As EventArgs) Handles radNO.CheckedChanged
+        If radNO.Checked Then
+            MessageBox.Show("You have not visited the store before. Unfortunatley we can not give you a $2.00 discount.
+
+                              Thank you for shopping with us!")
+        End If
+    End Sub
+
 
 End Class
+
