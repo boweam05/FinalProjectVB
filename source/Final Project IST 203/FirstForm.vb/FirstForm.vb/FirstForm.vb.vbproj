@@ -91,6 +91,36 @@
     </Compile>
     <Compile Include="DBUtilities.vb" />
     <Compile Include="Phones.vb" />
+    <Compile Include="Specifications Forms\GooglePixelXL2Specs.Designer.vb">
+      <DependentUpon>GooglePixelXL2Specs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\GooglePixelXL2Specs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Specifications Forms\HuaweiP20ProSpecs.Designer.vb">
+      <DependentUpon>HuaweiP20ProSpecs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\HuaweiP20ProSpecs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Specifications Forms\iPhoneXSpecs.Designer.vb">
+      <DependentUpon>iPhoneXSpecs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\iPhoneXSpecs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Specifications Forms\SamsungGalaxyS9PlusSpecs.Designer.vb">
+      <DependentUpon>SamsungGalaxyS9PlusSpecs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\SamsungGalaxyS9PlusSpecs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Specifications Forms\SamsungGalaxyS9Specs.Designer.vb">
+      <DependentUpon>SamsungGalaxyS9Specs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\SamsungGalaxyS9Specs.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SpecificationsForm.Designer.vb">
       <DependentUpon>SpecificationsForm.vb</DependentUpon>
     </Compile>
@@ -139,6 +169,21 @@
     <EmbeddedResource Include="BuyingTotalCostInfo.resx">
       <DependentUpon>BuyingTotalCostInfo.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\GooglePixelXL2Specs.resx">
+      <DependentUpon>GooglePixelXL2Specs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\HuaweiP20ProSpecs.resx">
+      <DependentUpon>HuaweiP20ProSpecs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\iPhoneXSpecs.resx">
+      <DependentUpon>iPhoneXSpecs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\SamsungGalaxyS9PlusSpecs.resx">
+      <DependentUpon>SamsungGalaxyS9PlusSpecs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\SamsungGalaxyS9Specs.resx">
+      <DependentUpon>SamsungGalaxyS9Specs.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SpecificationsForm.resx">
       <DependentUpon>SpecificationsForm.vb</DependentUpon>
     </EmbeddedResource>
@@ -171,9 +216,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Specifications Forms\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.108.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.108.0\build\net46\System.Data.SQLite.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

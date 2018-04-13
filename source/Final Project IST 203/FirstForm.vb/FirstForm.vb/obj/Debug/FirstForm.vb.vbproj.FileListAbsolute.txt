@@ -50,3 +50,7 @@ E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Fi
 D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\System.Data.SQLite.dll
 D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\System.Data.SQLite.xml
 D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\System.Data.SQLite.dll.config
+D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.iPhoneXSpecs.resources
+D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyS9PlusSpecs.resources
+D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.HuaweiP20ProSpecs.resources
+D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyS9Specs.resources
