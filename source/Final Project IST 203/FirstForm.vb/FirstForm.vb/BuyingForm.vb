@@ -8,4 +8,12 @@
         Hide()
         BuyingTotalCostInfo.ShowDialog()
     End Sub
+
+    Private Sub UpdateView()
+        dgvPhones.DataSource = DBUtilities.GetPhonesTable
+    End Sub
+
+    Private Sub BuyingForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        UpdateView()
+    End Sub
 End Class

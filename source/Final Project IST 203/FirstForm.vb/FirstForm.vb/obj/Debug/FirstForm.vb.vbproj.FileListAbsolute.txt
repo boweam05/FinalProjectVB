@@ -44,3 +44,6 @@ E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Fi
 E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.exe
 E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.xml
 E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.pdb
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\System.Data.SQLite.dll
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\System.Data.SQLite.xml
+E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\System.Data.SQLite.dll.config
