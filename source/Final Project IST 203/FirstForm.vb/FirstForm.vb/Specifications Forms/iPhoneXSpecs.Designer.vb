@@ -53,7 +53,7 @@ Partial Class iPhoneXSpecs
                 "0p HD) (30 fps)", "", "Features:  Optical image stabilization, Time-lapse video, Continuous autofocus, V" &
                 "ideo light, Video calling, Video sharing", "", "Front-facing camera:  7 megapixels", "", "Features:  High Dynamic Range mode (HDR)", "", "", "HARDWARE", "System chip:   Apple A11 Bionic APL1W72", "", "Processor:  Hexa-core, 2390 MHz, 64-bit, 10 nm", "", "Graphics processor:  Apple 3-core GPU", "", "System memory:  3 GB RAM", "", "Built-in storage:  [+]256 GB", "", "", "BATTERY ", "Capacity:  2716 mAh", "", "Wireless charging:  Built-in (Qi)", "", "Music playback:  60.00 hours", "", "Video playback:  13.00 hours", "", "", "MULTIMEDIA", "Music player:", "Filter by:   Album, Artist, Genre, Playlists", "", "Features:  Album art cover, Background playback", "Speakers:  Earpiece, Dual speakers", "", "Additional microphone(s): Yes", "", "", "CELLULAR ", "GSM:  850, 900, 1800, 1900 MHz", "", "UMTS:  850, 900, 1700/2100, 1900, 2100 MHz", "", "LTE (FDD):  Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 30" &
                 ", 66", "", "LTE (TDD):  Bands 38, 39, 40, 41", "", "Data:  LTE-A, HSPA, HSUPA, UMTS", "", "Nano SIM:  Yes", "", "VoLTE:  Yes", "", "", "PHONE FEATURES ", "Sensors:  Accelerometer, Gyroscope, Compass, Barometer", "", "Notifications:  Haptic feedback", "", "Hearing aid compatibility:  M3, T4", "", "Other features:  Voice dialing, Voice commands, Voice recording, TTY/TDD"})
-        Me.ListBox1.Location = New System.Drawing.Point(12, 291)
+        Me.ListBox1.Location = New System.Drawing.Point(12, 295)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(853, 308)
         Me.ListBox1.TabIndex = 1
