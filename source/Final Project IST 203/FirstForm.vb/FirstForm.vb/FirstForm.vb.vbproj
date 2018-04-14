@@ -91,6 +91,12 @@
     </Compile>
     <Compile Include="DBUtilities.vb" />
     <Compile Include="Phones.vb" />
+    <Compile Include="Specifications Forms\GooglePixel2.Designer.vb">
+      <DependentUpon>GooglePixel2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\GooglePixel2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Specifications Forms\GooglePixelXL2Specs.Designer.vb">
       <DependentUpon>GooglePixelXL2Specs.vb</DependentUpon>
     </Compile>
@@ -107,6 +113,24 @@
       <DependentUpon>HuaweiP20ProSpecs.vb</DependentUpon>
     </Compile>
     <Compile Include="Specifications Forms\HuaweiP20ProSpecs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Specifications Forms\HuaweiP20Specs.Designer.vb">
+      <DependentUpon>HuaweiP20Specs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\HuaweiP20Specs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Specifications Forms\iPhone8PlusSpecs.Designer.vb">
+      <DependentUpon>iPhone8PlusSpecs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\iPhone8PlusSpecs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Specifications Forms\iPhone8Specs.Designer.vb">
+      <DependentUpon>iPhone8Specs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\iPhone8Specs.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Specifications Forms\iPhoneXSpecs.Designer.vb">
@@ -127,6 +151,18 @@
     <Compile Include="Specifications Forms\SamsungGalaxyNote8Specs.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Specifications Forms\SamsungGalaxyS8PlusSpecs.Designer.vb">
+      <DependentUpon>SamsungGalaxyS8PlusSpecs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\SamsungGalaxyS8PlusSpecs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Specifications Forms\SamsungGalaxyS8Specs.Designer.vb">
+      <DependentUpon>SamsungGalaxyS8Specs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\SamsungGalaxyS8Specs.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Specifications Forms\SamsungGalaxyS9PlusSpecs.Designer.vb">
       <DependentUpon>SamsungGalaxyS9PlusSpecs.vb</DependentUpon>
     </Compile>
@@ -137,6 +173,12 @@
       <DependentUpon>SamsungGalaxyS9Specs.vb</DependentUpon>
     </Compile>
     <Compile Include="Specifications Forms\SamsungGalaxyS9Specs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Specifications Forms\SonyXperiaX72Specs.Designer.vb">
+      <DependentUpon>SonyXperiaX72Specs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Specifications Forms\SonyXperiaX72Specs.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SpecificationsForm.Designer.vb">
@@ -187,6 +229,9 @@
     <EmbeddedResource Include="BuyingTotalCostInfo.resx">
       <DependentUpon>BuyingTotalCostInfo.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\GooglePixel2.resx">
+      <DependentUpon>GooglePixel2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Specifications Forms\GooglePixelXL2Specs.resx">
       <DependentUpon>GooglePixelXL2Specs.vb</DependentUpon>
     </EmbeddedResource>
@@ -195,6 +240,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Specifications Forms\HuaweiP20ProSpecs.resx">
       <DependentUpon>HuaweiP20ProSpecs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\HuaweiP20Specs.resx">
+      <DependentUpon>HuaweiP20Specs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\iPhone8PlusSpecs.resx">
+      <DependentUpon>iPhone8PlusSpecs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\iPhone8Specs.resx">
+      <DependentUpon>iPhone8Specs.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Specifications Forms\iPhoneXSpecs.resx">
       <DependentUpon>iPhoneXSpecs.vb</DependentUpon>
@@ -205,11 +259,20 @@
     <EmbeddedResource Include="Specifications Forms\SamsungGalaxyNote8Specs.resx">
       <DependentUpon>SamsungGalaxyNote8Specs.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\SamsungGalaxyS8PlusSpecs.resx">
+      <DependentUpon>SamsungGalaxyS8PlusSpecs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\SamsungGalaxyS8Specs.resx">
+      <DependentUpon>SamsungGalaxyS8Specs.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Specifications Forms\SamsungGalaxyS9PlusSpecs.resx">
       <DependentUpon>SamsungGalaxyS9PlusSpecs.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Specifications Forms\SamsungGalaxyS9Specs.resx">
       <DependentUpon>SamsungGalaxyS9Specs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Specifications Forms\SonyXperiaX72Specs.resx">
+      <DependentUpon>SonyXperiaX72Specs.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SpecificationsForm.resx">
       <DependentUpon>SpecificationsForm.vb</DependentUpon>

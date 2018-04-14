@@ -36,4 +36,39 @@
         LGV30Specs.Show()
 
     End Sub
+
+    Private Sub btnSamsungGalaxyS8_Click(sender As Object, e As EventArgs) Handles btnSamsungGalaxyS8.Click
+        SamsungGalaxyS8Specs.Show()
+
+    End Sub
+
+    Private Sub btniPhone8_Click(sender As Object, e As EventArgs) Handles btniPhone8.Click
+        iPhone8Specs.Show()
+
+    End Sub
+
+    Private Sub btnGooglePixel2_Click(sender As Object, e As EventArgs) Handles btnGooglePixel2.Click
+        GooglePixel2.Show()
+
+    End Sub
+
+    Private Sub btnSonyExperiaX72_Click(sender As Object, e As EventArgs) Handles btnSonyExperiaX72.Click
+        SonyXperiaX72Specs.Show()
+
+    End Sub
+
+    Private Sub btnHuaweiP20_Click(sender As Object, e As EventArgs) Handles btnHuaweiP20.Click
+        HuaweiP20Specs.Show()
+
+    End Sub
+
+    Private Sub btniPhone8Plus_Click(sender As Object, e As EventArgs) Handles btniPhone8Plus.Click
+        iPhone8PlusSpecs.Show()
+
+    End Sub
+
+    Private Sub btnSamsungGalaxyS8Plus_Click(sender As Object, e As EventArgs) Handles btnSamsungGalaxyS8Plus.Click
+        SamsungGalaxyS8PlusSpecs.Show()
+
+    End Sub
 End Class

@@ -58,3 +58,10 @@ D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Fi
 D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.HuaweiMate10Pro.resources
 D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyNote8Specs.resources
 D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.LGV30Specs.resources
+D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyS8Specs.resources
+D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.GooglePixel2.resources
+D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.iPhone8Specs.resources
+D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SonyXperiaX72Specs.resources
+D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.HuaweiP20Specs.resources
+D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.iPhone8PlusSpecs.resources
+D:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyS8PlusSpecs.resources
