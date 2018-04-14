@@ -36,7 +36,7 @@ Partial Class BuyingTotalCostInfo
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(35, 227)
+        Me.Label5.Location = New System.Drawing.Point(35, 205)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(61, 13)
         Me.Label5.TabIndex = 12
@@ -82,35 +82,35 @@ Partial Class BuyingTotalCostInfo
         '
         Me.txtCustomerName.Location = New System.Drawing.Point(111, 17)
         Me.txtCustomerName.Name = "txtCustomerName"
-        Me.txtCustomerName.Size = New System.Drawing.Size(100, 20)
+        Me.txtCustomerName.Size = New System.Drawing.Size(194, 20)
         Me.txtCustomerName.TabIndex = 14
         '
         'txtPhone
         '
         Me.txtPhone.Location = New System.Drawing.Point(111, 52)
         Me.txtPhone.Name = "txtPhone"
-        Me.txtPhone.Size = New System.Drawing.Size(100, 20)
+        Me.txtPhone.Size = New System.Drawing.Size(194, 20)
         Me.txtPhone.TabIndex = 15
         '
         'txtEmail
         '
         Me.txtEmail.Location = New System.Drawing.Point(111, 87)
         Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(100, 20)
+        Me.txtEmail.Size = New System.Drawing.Size(194, 20)
         Me.txtEmail.TabIndex = 16
         '
         'txtPhoneUserBought
         '
         Me.txtPhoneUserBought.Location = New System.Drawing.Point(111, 139)
         Me.txtPhoneUserBought.Name = "txtPhoneUserBought"
-        Me.txtPhoneUserBought.Size = New System.Drawing.Size(100, 20)
+        Me.txtPhoneUserBought.Size = New System.Drawing.Size(194, 20)
         Me.txtPhoneUserBought.TabIndex = 17
         '
         'BuyingTotalCostInfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(251, 285)
+        Me.ClientSize = New System.Drawing.Size(330, 246)
         Me.Controls.Add(Me.txtPhoneUserBought)
         Me.Controls.Add(Me.txtEmail)
         Me.Controls.Add(Me.txtPhone)

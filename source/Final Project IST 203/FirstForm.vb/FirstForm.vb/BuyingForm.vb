@@ -16,4 +16,6 @@
     Private Sub BuyingForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         UpdateView()
     End Sub
+
+
 End Class
