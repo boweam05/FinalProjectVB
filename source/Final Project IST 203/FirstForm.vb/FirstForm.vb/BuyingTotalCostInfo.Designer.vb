@@ -31,6 +31,7 @@ Partial Class BuyingTotalCostInfo
         Me.txtPhone = New System.Windows.Forms.TextBox()
         Me.txtEmail = New System.Windows.Forms.TextBox()
         Me.txtPhoneUserBought = New System.Windows.Forms.TextBox()
+        Me.lblTotalCost = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label5
@@ -106,11 +107,20 @@ Partial Class BuyingTotalCostInfo
         Me.txtPhoneUserBought.Size = New System.Drawing.Size(194, 20)
         Me.txtPhoneUserBought.TabIndex = 17
         '
+        'lblTotalCost
+        '
+        Me.lblTotalCost.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblTotalCost.Location = New System.Drawing.Point(92, 202)
+        Me.lblTotalCost.Name = "lblTotalCost"
+        Me.lblTotalCost.Size = New System.Drawing.Size(102, 20)
+        Me.lblTotalCost.TabIndex = 18
+        '
         'BuyingTotalCostInfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(330, 246)
+        Me.Controls.Add(Me.lblTotalCost)
         Me.Controls.Add(Me.txtPhoneUserBought)
         Me.Controls.Add(Me.txtEmail)
         Me.Controls.Add(Me.txtPhone)
@@ -138,4 +148,5 @@ Partial Class BuyingTotalCostInfo
     Friend WithEvents txtPhone As TextBox
     Friend WithEvents txtEmail As TextBox
     Friend WithEvents txtPhoneUserBought As TextBox
+    Friend WithEvents lblTotalCost As Label
 End Class
