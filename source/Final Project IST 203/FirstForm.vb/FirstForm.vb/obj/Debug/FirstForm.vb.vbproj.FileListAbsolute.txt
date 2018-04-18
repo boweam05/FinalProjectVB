@@ -80,3 +80,38 @@ E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\Fi
 E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyS9PlusSpecs.resources
 E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyS9Specs.resources
 E:\College Spring 2018\IST 203 Advance Visual Basic\Assingments\Final Project\FinalProjectVB\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SonyXperiaX72Specs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\FirstForm.vb.exe.config
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\FirstForm.vb.exe
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\FirstForm.vb.pdb
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\FirstForm.vb.xml
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\System.Data.SQLite.dll
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\System.Data.SQLite.xml
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.vbprojResolveAssemblyReference.cache
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.BuyingForm.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.BuyingTotalCostInfo.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.GooglePixel2.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.GooglePixelXL2Specs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.HuaweiMate10Pro.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.HuaweiP20ProSpecs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.HuaweiP20Specs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.iPhone8PlusSpecs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.iPhone8Specs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.iPhoneXSpecs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.LGV30Specs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyNote8Specs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyS8PlusSpecs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyS8Specs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyS9PlusSpecs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SamsungGalaxyS9Specs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SonyXperiaX72Specs.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.SpecificationsForm.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.StartupForm.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.Resources.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.RepairForm.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.RepairTotalCostInfo.resources
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.vbproj.GenerateResource.Cache
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.vbproj.CoreCompileInputs.cache
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.exe
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.xml
+C:\Users\Austin Bowers\Desktop\FinalProjectVB-master\FinalProjectVB-master\source\Final Project IST 203\FirstForm.vb\FirstForm.vb\obj\Debug\FirstForm.vb.pdb

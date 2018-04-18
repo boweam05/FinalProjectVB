@@ -1,5 +1,6 @@
 ﻿Public Class BuyingForm
     Dim FinalCost As Integer
+    Private formloaded As Boolean
 
 
     Private Sub btnSpecsSheet_Click(sender As Object, e As EventArgs) Handles btnSpecsSheet.Click
@@ -64,9 +65,6 @@
         BuyingTotalCostInfo.lblTotalCost.Text = calcTotalBuys.ToString("C")
     End Sub
 
-
-
-
     Private Sub UpdateView()
         dgvPhones.DataSource = DBUtilities.GetPhonesTable
     End Sub
@@ -83,5 +81,48 @@
         Return cost
     End Function
 
+    Private Sub btnAddPhone_Click(sender As Object, e As EventArgs) Handles btnAddPhone.Click
 
+        Dim Name As String = txtName.Text
+        Dim Make As String = txtMake.Text
+        Dim Fimrware As String = txtFirmware.Text
+
+        If DBUtilities.insert(Name, Make, Fimrware) Then
+            UpdateView()
+        End If
+    End Sub
+
+    Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
+        Dim Name As String = txtName.Text
+
+        If DBUtilities.Delete(Name) Then
+            UpdateView()
+        End If
+    End Sub
+
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        txtName.Clear()
+        txtMake.Clear()
+        txtFirmware.Clear()
+    End Sub
+
+    Private Sub dgvPhones_SelectionChanged(sender As Object, e As EventArgs) Handles dgvPhones.SelectionChanged
+        If formLoaded And dgvPhones.SelectedRows.Count <> 0 Then
+
+            Dim selectedName As Integer
+
+            selectedName = CInt(dgvPhones.SelectedRows(0).Cells(0).Value)
+
+            Dim selectedPhone As New Phones
+
+            selectedPhone = DBUtilities.GetPhone(selectedName)
+
+            txtName.Text = selectedPhone.Name
+            txtMake.Text = selectedPhone.Make
+            txtFirmware.Text = selectedPhone.Firmware
+        End If
+
+
+
+    End Sub
 End Class

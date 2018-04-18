@@ -81,6 +81,7 @@ Partial Class BuyingTotalCostInfo
         '
         'txtCustomerName
         '
+        Me.txtCustomerName.Enabled = False
         Me.txtCustomerName.Location = New System.Drawing.Point(111, 17)
         Me.txtCustomerName.Name = "txtCustomerName"
         Me.txtCustomerName.Size = New System.Drawing.Size(194, 20)
@@ -88,6 +89,7 @@ Partial Class BuyingTotalCostInfo
         '
         'txtPhone
         '
+        Me.txtPhone.Enabled = False
         Me.txtPhone.Location = New System.Drawing.Point(111, 52)
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(194, 20)
@@ -95,6 +97,7 @@ Partial Class BuyingTotalCostInfo
         '
         'txtEmail
         '
+        Me.txtEmail.Enabled = False
         Me.txtEmail.Location = New System.Drawing.Point(111, 87)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(194, 20)
@@ -102,6 +105,7 @@ Partial Class BuyingTotalCostInfo
         '
         'txtPhoneUserBought
         '
+        Me.txtPhoneUserBought.Enabled = False
         Me.txtPhoneUserBought.Location = New System.Drawing.Point(111, 139)
         Me.txtPhoneUserBought.Name = "txtPhoneUserBought"
         Me.txtPhoneUserBought.Size = New System.Drawing.Size(194, 20)

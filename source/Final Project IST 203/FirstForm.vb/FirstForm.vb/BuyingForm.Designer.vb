@@ -40,6 +40,15 @@ Partial Class BuyingForm
         Me.radSamsungGalaxyS9 = New System.Windows.Forms.RadioButton()
         Me.radGooglePixelXL2 = New System.Windows.Forms.RadioButton()
         Me.radHuaweiMate10Pro = New System.Windows.Forms.RadioButton()
+        Me.txtFirmware = New System.Windows.Forms.TextBox()
+        Me.txtMake = New System.Windows.Forms.TextBox()
+        Me.txtName = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.btnAddPhone = New System.Windows.Forms.Button()
+        Me.btnDelete = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
         CType(Me.dgvPhones, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -48,14 +57,15 @@ Partial Class BuyingForm
         Me.dgvPhones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvPhones.Location = New System.Drawing.Point(12, 12)
         Me.dgvPhones.Name = "dgvPhones"
-        Me.dgvPhones.Size = New System.Drawing.Size(509, 272)
+        Me.dgvPhones.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgvPhones.Size = New System.Drawing.Size(641, 272)
         Me.dgvPhones.TabIndex = 0
         '
         'btnNext
         '
-        Me.btnNext.Location = New System.Drawing.Point(446, 521)
+        Me.btnNext.Location = New System.Drawing.Point(550, 610)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(75, 23)
+        Me.btnNext.Size = New System.Drawing.Size(103, 23)
         Me.btnNext.TabIndex = 1
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
@@ -72,7 +82,7 @@ Partial Class BuyingForm
         'radSamsungGalaxyS8Plus
         '
         Me.radSamsungGalaxyS8Plus.AutoSize = True
-        Me.radSamsungGalaxyS8Plus.Location = New System.Drawing.Point(377, 419)
+        Me.radSamsungGalaxyS8Plus.Location = New System.Drawing.Point(350, 496)
         Me.radSamsungGalaxyS8Plus.Name = "radSamsungGalaxyS8Plus"
         Me.radSamsungGalaxyS8Plus.Size = New System.Drawing.Size(143, 17)
         Me.radSamsungGalaxyS8Plus.TabIndex = 3
@@ -83,7 +93,7 @@ Partial Class BuyingForm
         'radiPhone8Plus
         '
         Me.radiPhone8Plus.AutoSize = True
-        Me.radiPhone8Plus.Location = New System.Drawing.Point(377, 385)
+        Me.radiPhone8Plus.Location = New System.Drawing.Point(350, 462)
         Me.radiPhone8Plus.Name = "radiPhone8Plus"
         Me.radiPhone8Plus.Size = New System.Drawing.Size(90, 17)
         Me.radiPhone8Plus.TabIndex = 4
@@ -94,7 +104,7 @@ Partial Class BuyingForm
         'radHuaweiP20
         '
         Me.radHuaweiP20.AutoSize = True
-        Me.radHuaweiP20.Location = New System.Drawing.Point(377, 351)
+        Me.radHuaweiP20.Location = New System.Drawing.Point(350, 428)
         Me.radHuaweiP20.Name = "radHuaweiP20"
         Me.radHuaweiP20.Size = New System.Drawing.Size(83, 17)
         Me.radHuaweiP20.TabIndex = 5
@@ -105,7 +115,7 @@ Partial Class BuyingForm
         'radSonyExperiaX72
         '
         Me.radSonyExperiaX72.AutoSize = True
-        Me.radSonyExperiaX72.Location = New System.Drawing.Point(230, 521)
+        Me.radSonyExperiaX72.Location = New System.Drawing.Point(203, 598)
         Me.radSonyExperiaX72.Name = "radSonyExperiaX72"
         Me.radSonyExperiaX72.Size = New System.Drawing.Size(104, 17)
         Me.radSonyExperiaX72.TabIndex = 6
@@ -116,7 +126,7 @@ Partial Class BuyingForm
         'radGooglePixel2
         '
         Me.radGooglePixel2.AutoSize = True
-        Me.radGooglePixel2.Location = New System.Drawing.Point(230, 489)
+        Me.radGooglePixel2.Location = New System.Drawing.Point(203, 566)
         Me.radGooglePixel2.Name = "radGooglePixel2"
         Me.radGooglePixel2.Size = New System.Drawing.Size(93, 17)
         Me.radGooglePixel2.TabIndex = 7
@@ -127,7 +137,7 @@ Partial Class BuyingForm
         'radiPhone8
         '
         Me.radiPhone8.AutoSize = True
-        Me.radiPhone8.Location = New System.Drawing.Point(230, 453)
+        Me.radiPhone8.Location = New System.Drawing.Point(203, 530)
         Me.radiPhone8.Name = "radiPhone8"
         Me.radiPhone8.Size = New System.Drawing.Size(67, 17)
         Me.radiPhone8.TabIndex = 8
@@ -138,7 +148,7 @@ Partial Class BuyingForm
         'radSamsungGalaxyS8
         '
         Me.radSamsungGalaxyS8.AutoSize = True
-        Me.radSamsungGalaxyS8.Location = New System.Drawing.Point(230, 419)
+        Me.radSamsungGalaxyS8.Location = New System.Drawing.Point(203, 496)
         Me.radSamsungGalaxyS8.Name = "radSamsungGalaxyS8"
         Me.radSamsungGalaxyS8.Size = New System.Drawing.Size(120, 17)
         Me.radSamsungGalaxyS8.TabIndex = 9
@@ -149,7 +159,7 @@ Partial Class BuyingForm
         'radLGV30
         '
         Me.radLGV30.AutoSize = True
-        Me.radLGV30.Location = New System.Drawing.Point(230, 385)
+        Me.radLGV30.Location = New System.Drawing.Point(203, 462)
         Me.radLGV30.Name = "radLGV30"
         Me.radLGV30.Size = New System.Drawing.Size(64, 17)
         Me.radLGV30.TabIndex = 10
@@ -160,7 +170,7 @@ Partial Class BuyingForm
         'radSamsungGalaxyNote8
         '
         Me.radSamsungGalaxyNote8.AutoSize = True
-        Me.radSamsungGalaxyNote8.Location = New System.Drawing.Point(230, 351)
+        Me.radSamsungGalaxyNote8.Location = New System.Drawing.Point(203, 428)
         Me.radSamsungGalaxyNote8.Name = "radSamsungGalaxyNote8"
         Me.radSamsungGalaxyNote8.Size = New System.Drawing.Size(142, 17)
         Me.radSamsungGalaxyNote8.TabIndex = 11
@@ -171,7 +181,7 @@ Partial Class BuyingForm
         'radiPhoneX
         '
         Me.radiPhoneX.AutoSize = True
-        Me.radiPhoneX.Location = New System.Drawing.Point(65, 351)
+        Me.radiPhoneX.Location = New System.Drawing.Point(38, 428)
         Me.radiPhoneX.Name = "radiPhoneX"
         Me.radiPhoneX.Size = New System.Drawing.Size(68, 17)
         Me.radiPhoneX.TabIndex = 12
@@ -182,7 +192,7 @@ Partial Class BuyingForm
         'radSamsungGalaxyS9Plus
         '
         Me.radSamsungGalaxyS9Plus.AutoSize = True
-        Me.radSamsungGalaxyS9Plus.Location = New System.Drawing.Point(65, 385)
+        Me.radSamsungGalaxyS9Plus.Location = New System.Drawing.Point(38, 462)
         Me.radSamsungGalaxyS9Plus.Name = "radSamsungGalaxyS9Plus"
         Me.radSamsungGalaxyS9Plus.Size = New System.Drawing.Size(143, 17)
         Me.radSamsungGalaxyS9Plus.TabIndex = 13
@@ -193,7 +203,7 @@ Partial Class BuyingForm
         'radHuaweiP20Pro
         '
         Me.radHuaweiP20Pro.AutoSize = True
-        Me.radHuaweiP20Pro.Location = New System.Drawing.Point(65, 419)
+        Me.radHuaweiP20Pro.Location = New System.Drawing.Point(38, 496)
         Me.radHuaweiP20Pro.Name = "radHuaweiP20Pro"
         Me.radHuaweiP20Pro.Size = New System.Drawing.Size(102, 17)
         Me.radHuaweiP20Pro.TabIndex = 14
@@ -204,7 +214,7 @@ Partial Class BuyingForm
         'radSamsungGalaxyS9
         '
         Me.radSamsungGalaxyS9.AutoSize = True
-        Me.radSamsungGalaxyS9.Location = New System.Drawing.Point(65, 453)
+        Me.radSamsungGalaxyS9.Location = New System.Drawing.Point(38, 530)
         Me.radSamsungGalaxyS9.Name = "radSamsungGalaxyS9"
         Me.radSamsungGalaxyS9.Size = New System.Drawing.Size(123, 17)
         Me.radSamsungGalaxyS9.TabIndex = 15
@@ -215,7 +225,7 @@ Partial Class BuyingForm
         'radGooglePixelXL2
         '
         Me.radGooglePixelXL2.AutoSize = True
-        Me.radGooglePixelXL2.Location = New System.Drawing.Point(65, 489)
+        Me.radGooglePixelXL2.Location = New System.Drawing.Point(38, 566)
         Me.radGooglePixelXL2.Name = "radGooglePixelXL2"
         Me.radGooglePixelXL2.Size = New System.Drawing.Size(109, 17)
         Me.radGooglePixelXL2.TabIndex = 16
@@ -226,7 +236,7 @@ Partial Class BuyingForm
         'radHuaweiMate10Pro
         '
         Me.radHuaweiMate10Pro.AutoSize = True
-        Me.radHuaweiMate10Pro.Location = New System.Drawing.Point(65, 521)
+        Me.radHuaweiMate10Pro.Location = New System.Drawing.Point(38, 598)
         Me.radHuaweiMate10Pro.Name = "radHuaweiMate10Pro"
         Me.radHuaweiMate10Pro.Size = New System.Drawing.Size(122, 17)
         Me.radHuaweiMate10Pro.TabIndex = 17
@@ -234,11 +244,95 @@ Partial Class BuyingForm
         Me.radHuaweiMate10Pro.Text = "Huawei Mate 10 Pro"
         Me.radHuaweiMate10Pro.UseVisualStyleBackColor = True
         '
+        'txtFirmware
+        '
+        Me.txtFirmware.Location = New System.Drawing.Point(375, 378)
+        Me.txtFirmware.Name = "txtFirmware"
+        Me.txtFirmware.Size = New System.Drawing.Size(157, 20)
+        Me.txtFirmware.TabIndex = 18
+        '
+        'txtMake
+        '
+        Me.txtMake.Location = New System.Drawing.Point(375, 341)
+        Me.txtMake.Name = "txtMake"
+        Me.txtMake.Size = New System.Drawing.Size(157, 20)
+        Me.txtMake.TabIndex = 19
+        '
+        'txtName
+        '
+        Me.txtName.Location = New System.Drawing.Point(375, 300)
+        Me.txtName.Name = "txtName"
+        Me.txtName.Size = New System.Drawing.Size(157, 20)
+        Me.txtName.TabIndex = 20
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(330, 344)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(37, 13)
+        Me.Label1.TabIndex = 21
+        Me.Label1.Text = "Make:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(319, 381)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(52, 13)
+        Me.Label2.TabIndex = 22
+        Me.Label2.Text = "Firmware:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(330, 304)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(41, 13)
+        Me.Label3.TabIndex = 23
+        Me.Label3.Text = "Name: "
+        '
+        'btnAddPhone
+        '
+        Me.btnAddPhone.Location = New System.Drawing.Point(546, 298)
+        Me.btnAddPhone.Name = "btnAddPhone"
+        Me.btnAddPhone.Size = New System.Drawing.Size(107, 23)
+        Me.btnAddPhone.TabIndex = 24
+        Me.btnAddPhone.Text = "Add Phone"
+        Me.btnAddPhone.UseVisualStyleBackColor = True
+        '
+        'btnDelete
+        '
+        Me.btnDelete.Location = New System.Drawing.Point(546, 339)
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(107, 23)
+        Me.btnDelete.TabIndex = 26
+        Me.btnDelete.Text = "Delete Phone"
+        Me.btnDelete.UseVisualStyleBackColor = True
+        '
+        'btnClear
+        '
+        Me.btnClear.Location = New System.Drawing.Point(546, 375)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(107, 23)
+        Me.btnClear.TabIndex = 27
+        Me.btnClear.Text = "Clear Textboxes"
+        Me.btnClear.UseVisualStyleBackColor = True
+        '
         'BuyingForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(544, 554)
+        Me.ClientSize = New System.Drawing.Size(665, 645)
+        Me.Controls.Add(Me.btnClear)
+        Me.Controls.Add(Me.btnDelete)
+        Me.Controls.Add(Me.btnAddPhone)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.txtName)
+        Me.Controls.Add(Me.txtMake)
+        Me.Controls.Add(Me.txtFirmware)
         Me.Controls.Add(Me.radHuaweiMate10Pro)
         Me.Controls.Add(Me.radGooglePixelXL2)
         Me.Controls.Add(Me.radSamsungGalaxyS9)
@@ -286,4 +380,13 @@ Partial Class BuyingForm
     Friend WithEvents radSamsungGalaxyS9 As RadioButton
     Friend WithEvents radGooglePixelXL2 As RadioButton
     Friend WithEvents radHuaweiMate10Pro As RadioButton
+    Friend WithEvents txtFirmware As TextBox
+    Friend WithEvents txtMake As TextBox
+    Friend WithEvents txtName As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents btnAddPhone As Button
+    Friend WithEvents btnDelete As Button
+    Friend WithEvents btnClear As Button
 End Class
